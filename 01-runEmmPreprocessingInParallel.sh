@@ -313,6 +313,7 @@ afni_proc.py -subj_id ${subject}						\\
 	     -regress_est_blur_epits						\\
 	     -regress_est_blur_errts						\\
 	     -regress_opts_3dD							\\
+	     	 -num_glt 13							\\
    	     	 -gltsym 'SYM: +1*Fear -1*Oval'					\\
 		 -glt_label 1 "Fear-Oval"					\\
 		 -gltsym 'SYM: +1*Happy -1*Oval'				\\
